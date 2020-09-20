@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.table.table-striped {
+  width: 80%;
+  margin: 20px auto;
+}
+span.glyphicon {
+  margin: 5px;
+  color: #4e32a4;
+}
+
+.App a button {
+  margin-top: 30px;
+  padding: 10px 50px;
+  border: none;
+}
+
+.App a[href^="/students"] button {
+  background-color: #e3dbfc;
+}
+
+.App a[href^="/groups"] button {
+  background-color: #adebe0;
+}
+
+.add-student {
+  border-radius: 50%;
+  height: 50px;
+  font-size: 25px;
+  width: 50px;
+  float: right;
+  margin-right: 12%;
+  background-color: #c4b6f0;
+  border: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.add-student:hover {
+  background-color: #8a7abf;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.add-group {
+  border-radius: 50% !important;
+  height: 50px;
+  font-size: 25px;
+  color: #fff;
+  width: 50px;
+  float: right;
+  margin-right: 12%;
+  background-color: #93cdc3;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.add-group:hover {
+  background-color: #adebe0;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.Title {
+  margin-top: 30px;
+}
+.btn-primary {
+  background-color: #c4b6f0 !important;
+  border-radius: 0;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 20px 10px 0 !important;
+}
+.row {
+  margin-bottom: 10px;
+}
+.del {
+  margin-left: 20px !important;
+}
+.reset {
+  position: absolute;
+  left: 10%;
+  bottom: 3%;
+}
+.group-save {
+  margin: 7px 0 0 90px !important;
+}
+.group-cancel {
+  position: absolute;
+  top: 60%;
+  right: 1%;
+}
